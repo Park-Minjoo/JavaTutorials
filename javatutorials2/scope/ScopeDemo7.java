@@ -1,3 +1,5 @@
+package scope;
+
 /*
     Scope of instance : this
  */

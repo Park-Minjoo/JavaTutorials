@@ -1,3 +1,5 @@
+package scope;
+
 /*
     static scope, lexical scope
  */

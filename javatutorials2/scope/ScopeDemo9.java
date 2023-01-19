@@ -1,4 +1,4 @@
-/*
+package scope;/*
     How to access the instance variable v in method m? (this)
  */
 

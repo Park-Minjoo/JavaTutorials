@@ -1,3 +1,5 @@
+package scope;
+
 public class ScopeDemo3 {
     static int i = 0;
 

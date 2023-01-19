@@ -1,3 +1,5 @@
+package scope;
+
 public class ScopeDemo4 {
     static void a() {
         String title = "Hello JIU students";
