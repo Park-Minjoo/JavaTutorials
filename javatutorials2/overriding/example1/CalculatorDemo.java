@@ -16,8 +16,14 @@ class Calculator {
         System.out.println(this.left + this.right);
     }
 
-    public void avg() {
-        System.out.println((this.left + this.right) / 2);
+//    public void avg() {
+//        System.out.println((this.left + this.right) / 2);
+    public int avg() {
+        return ((this.left + this.right) / 2);
+    }
+
+    public void substract() {
+        System.out.println(this.left - this.right);
     }
 }
 
@@ -25,6 +31,25 @@ class SubstractionableCalculator extends Calculator {
     public void sum() { // the methid sum added
         System.out.println("The result is : " + (this.left + this.right) + ".");
     }
+
+    public int avg() {
+//        return (this.left + this.right)/2;
+        /*
+            No need to Duplicate : super
+         */
+        return super.avg();
+    }
+    /*
+        The return format of the method must be the same in order to override.
+        the method avg of the class calculator : (return type) void
+        the class SubstractionableCalculator : (return type) int
+        >>> Conditions to override (Signature) <<<
+           - Name of the method
+           - Number and data type and order of method parameters
+           - Return type of method
+
+        -> Let's bypass this problem by changing the code of the higher class
+     */
 
     public void substract() {
         System.out.println(this.left - this.right);
@@ -35,7 +60,8 @@ public class CalculatorDemo {
         SubstractionableCalculator c1 = new SubstractionableCalculator();
         c1.setOprands(10, 20); // lower-class method sum >>> high-class method sum
         c1.sum();
-        c1.avg();
+//        c1.avg();
+        System.out.println("The result is : " + c1.avg());
         c1.substract();
     }
 }
