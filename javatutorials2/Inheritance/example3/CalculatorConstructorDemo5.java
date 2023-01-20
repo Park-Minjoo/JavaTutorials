@@ -36,9 +36,9 @@ class Calculator {
 
 class SubstractionableCalculator extends Calculator {
     public SubstractionableCalculator(int left, int right) { // Constructor
-        this.left = left;
-        this.right = right;
-//        super(left, right);
+//        this.left = left;
+//        this.right = right;
+        super(left, right);
     /*
         The super keyword means the parent class.
         If you add () here, it means the constructor of the parent class.
