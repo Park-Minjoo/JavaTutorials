@@ -1,0 +1,10 @@
+overriding VS overloading
+
+* Overriding and overloading are really confusing terms,, Of course!
+* The important thing is not to distinguish what overloading is and overriding is,
+    the important thing is to know that
+    - riding: to change the behavior of the parent class method
+    - loading: to create multiple methods with the same name and different parameters
+* However, terms become important when exchanging concepts in the process of learning or collaboration.
+* If you think without 'over', it would be less confusing to know. (riding vs loading)
+** FYI, overriding has dictionary meaning of redefining
