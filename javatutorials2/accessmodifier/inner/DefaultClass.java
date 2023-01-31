@@ -1,4 +1,4 @@
 package accessmodifier.inner;
 
-public class DefaultClass {
+class DefaultClass {
 }
