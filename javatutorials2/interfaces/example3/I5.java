@@ -3,7 +3,7 @@ package interfaces.example3;
     The member of the interface must be public.
  */
 interface I5 {
-    private void x();
+//    private void x();
 }
 
 /*
