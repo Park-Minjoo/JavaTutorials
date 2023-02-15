@@ -16,7 +16,7 @@ public class MethodDemo7 {
         String result = numbering(1,5);
         System.out.println(result);
         try {
-            BufferedWriter out = new BufferedWriter(new FileWriter("out.txt"));
+            BufferedWriter out = new BufferedWriter(new FileWriter("exception/out.txt"));
             // save the the return value of method 'numbering' in the out.txt file.
             out.write(result);
             out.close();
