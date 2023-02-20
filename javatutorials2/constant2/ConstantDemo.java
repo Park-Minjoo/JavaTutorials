@@ -28,9 +28,11 @@ package constant2;
 //
 //}
 enum Fruit{
-    APPLE, PEACH, BANANA;
-    Fruit(){
+    APPLE("red"), PEACH("pink"), BANANA("yellow");
+    public String color;
+    Fruit(String color){
         System.out.println("Call Constructor "+this);
+        this.color = color;
     }
 }
 enum Company{
