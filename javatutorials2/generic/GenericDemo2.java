@@ -24,10 +24,10 @@ class Person<T extends Info>{
 //        System.out.println(info);
 //    }
 }
-class Person<T extends Info>{
-    public T info;
-    Person(T info){ this.info = info; }
-}
+//class Person<T extends Info>{
+//    public T info;
+//    Person(T info){ this.info = info; }
+//}
 public class GenericDemo2 {
     public static void main(String[] args) {
 //        EmployeeInfo e = new EmployeeInfo(1);
@@ -37,6 +37,6 @@ public class GenericDemo2 {
 //        System.out.println(p1.id.intValue());
 //        p1.printInfo(e);
         Person p1 = new Person(new EmployeeInfo(1));
-        Person<String> p2 = new Person<String>("부장")
+//        Person<String> p2 = new Person<String>("부장")
     }
 }
