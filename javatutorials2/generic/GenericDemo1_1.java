@@ -1,4 +1,5 @@
 package generic;
+/*
 class StudentInfo{
     public int grade;
     StudentInfo(int grade){ this.grade = grade; }
@@ -36,3 +37,4 @@ public class GenericDemo1_1 {
 //        System.out.println(ei2.rank);
     }
 }
+*/

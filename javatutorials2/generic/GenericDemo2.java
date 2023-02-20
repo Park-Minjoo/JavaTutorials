@@ -14,6 +14,9 @@ class Person<T, S>{
 }
 public class GenericDemo2 {
     public static void main(String[] args) {
-        Person<EmployeeInfo, int> p1 = new Person<EmployeeInfo, int>(new EmployeeInfo(1), 1);
+        EmployeeInfo e = new EmployeeInfo(1);
+        Integer i = new Integer(10);
+        Person<EmployeeInfo, Integer> p1 = new Person<EmployeeInfo, Integer>(new EmployeeInfo(1), 1);
+        System.out.println(p1.id.intValue());
     }
 }
