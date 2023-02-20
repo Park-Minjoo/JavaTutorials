@@ -1,6 +1,10 @@
 package constant2;
 
 public class ConstantDemo {
+    private final static int APPLE = 1;
+    private final static int PEACH = 2;
+    private final static int BANANA = 3;
+
     public static void main(String[] args) {
         /*
          * 1. 사과
@@ -9,14 +13,14 @@ public class ConstantDemo {
          */
         int type = 1;
         switch(type){
-            case 1:
-                System.out.println(57);
+            case APPLE:
+                System.out.println(57+" kcal");
                 break;
-            case 2:
-                System.out.println(34);
+            case PEACH:
+                System.out.println(34+" kcal");
                 break;
-            case 3:
-                System.out.println(93);
+            case BANANA:
+                System.out.println(93+" kcal");
                 break;
         }
     }
