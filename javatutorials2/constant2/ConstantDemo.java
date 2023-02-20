@@ -29,6 +29,9 @@ package constant2;
 //}
 enum Fruit{
     APPLE, PEACH, BANANA;
+    Fruit(){
+        System.out.println("Call Constructor "+this);
+    }
 }
 enum Company{
     GOOGLE, APPLE, ORACLE;
